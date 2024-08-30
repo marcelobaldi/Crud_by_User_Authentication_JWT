@@ -1,10 +1,10 @@
 # NodeJS: API Rest (Prisma + PostgreSQL);
-Project
+**Project
 - Title:                NodeJS:  API Rest (Prisma + PostgreSQL);
 - Objective:            Backend: Crud by User Authentication (JWT);
 - Git Hub:              https://github.com/marcelobaldi/NodeJS_ApiRest_Prisma_PostGreSQL
 
-Technologies        
+**Technologies        
 - Node Language:        TypeScript
 - Node Framework:       Express
 - API Type:             Rest    (Json)
@@ -15,7 +15,7 @@ Technologies
 - Support App:          SGBD Beekeeper, ApiTest Insomnia, FlowChart Miro;
 - Support Md5Hash:      https://onlinehashtools.com/generate-random-md5-hash
 
-Play Project
+**Play Project
 - Config Project:       Token, Database, Cors, Env      
 - Reinstal Libs:        npm install                  
 - C/U Migrations:       yarn prisma migrate dev 
@@ -23,10 +23,11 @@ Play Project
 - Test Routes:          Insomnia  App
 - Test Database:        Beekeeper App
 
-Config Observations
+**Config Observations
 - Token Project:        It's just to this Project.      Necessary generate other (.Env);
 - Database Config:      It's just to this Project.      Necessary config as your set up (.Env);
 - Cors:                 It's enable for all domains.    Depend's, set just to your domain (App.ts);
 - Environments:         It's being commited.            Depend's, set for no commited (.GitIgnore);
 
-![image](https://github.com/user-attachments/assets/e5737070-7d36-4d5d-9ee4-8be4ecdcb8d1)
+![image](https://github.com/user-attachments/assets/9c7cdda3-4b9c-448d-b453-fb55289be858)
+
