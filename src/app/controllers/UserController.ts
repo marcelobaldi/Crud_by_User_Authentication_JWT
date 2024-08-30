@@ -11,8 +11,8 @@ export class UserController{
 
 		//Data: Treatment and Validate Rules
 		const validationRules:any = yup.object().shape({
-			name:  yup.string().trim().required().min(1),
-			email: yup.string().trim().required().email().min(5),
+			name:  yup.string().trim().required().min(2),
+			email: yup.string().trim().required().email().min(7),
 			pass:  yup.string().trim().required().min(6)
 		})
 		
