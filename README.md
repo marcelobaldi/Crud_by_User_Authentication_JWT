@@ -1,17 +1,18 @@
-# Crud_by_User_Authentication_JWT
+# NodeJS: API Rest (Prisma + PostgreSQL);
 Project
-- BackEnd:              Crud by User Authentication - JWT
-- Platform:             NodeJS
-- Git Hub:              https://github.com/marcelobaldi/Crud_by_User_Authentication_JWT 
+- Title:                NodeJS:  API Rest (Prisma + PostgreSQL);
+- Objective:            Backend: Crud by User Authentication (JWT);
+- Git Hub:              https://github.com/marcelobaldi/NodeJS_ApiRest_Prisma_PostGreSQL
 
 Technologies        
 - Node Language:        TypeScript
 - Node Framework:       Express
-- API Type:             Rest (Json)
-- Database Type:        PostGreSQL, Beekeeper      
+- API Type:             Rest    (Json)
+- Database Name|Type:   PostGre (SQL )
 - DataBase Connector:   Prisma, ModelORM, Migrations
 - Security Process:     Cryptography, CORS, JWT  
-- Others:               DotEnv, CookieParser, YupValidation, NodeMon    
+- Others Tech:          DotEnv, CookieParser, YupValidation, NodeMon;    
+- Support App:          SGBD Beekeeper, ApiTest Insomnia, FlowChart Miro;
 
 Play Project
 - Libs Project:         npm install
