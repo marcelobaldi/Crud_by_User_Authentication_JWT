@@ -13,6 +13,7 @@ Technologies
 - Security Process:     Cryptography, CORS, JWT  
 - Others Tech:          DotEnv, CookieParser, YupValidation, NodeMon;    
 - Support App:          SGBD Beekeeper, ApiTest Insomnia, FlowChart Miro;
+- Support Md5Hash:      https://onlinehashtools.com/generate-random-md5-hash
 
 Play Project
 - Libs Project:         npm install
@@ -20,3 +21,10 @@ Play Project
 - Play RealTime:        nodemon src/index.ts 
 - Test Routes:          Insomnia  App
 - Test Database:        Beekeeper App
+
+Config Observations
+- Token Project:        It's just to this Project.      Necessary generate other (.Env);
+- Database Config:      It's just to this Project.      Necessary config as your set up (.Env);
+- Cors:                 It's enable for all domains.    Depend's, set just to your domain (App.ts);
+- Environments:         It's being commited.            Depend's, set for no commited (.GitIgnore);
+
