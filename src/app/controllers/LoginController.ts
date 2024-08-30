@@ -12,7 +12,7 @@ export class LoginController{
 
 		//Data: Treatment and Validation Rules
 		const validationRules:any = yup.object().shape({
-			email: yup.string().trim().required().email().min(5),
+			email: yup.string().trim().required().email().min(7),
 			pass:  yup.string().trim().required().min(6)
 		})
 		
