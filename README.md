@@ -29,5 +29,6 @@
 - Cors:                 It's enable for all domains.    Depend's, set just to your domain (App.ts);
 - Environments:         It's being commited.            Depend's, set for no commited (.GitIgnore);
 
-![image](https://github.com/user-attachments/assets/9c7cdda3-4b9c-448d-b453-fb55289be858)
+![image](https://github.com/user-attachments/assets/ff5b31d3-5a92-4b82-a684-dae46fca069e)
+
 
