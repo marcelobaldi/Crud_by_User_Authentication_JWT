@@ -16,8 +16,9 @@ Technologies
 - Support Md5Hash:      https://onlinehashtools.com/generate-random-md5-hash
 
 Play Project
-- Libs Project:         npm install
-- Migrations:           yarn prisma migrate dev 
+- Config Project:       Token, Database, Cors, Env      
+- Reinstal Libs:        npm install                  
+- C/U Migrations:       yarn prisma migrate dev 
 - Play RealTime:        nodemon src/index.ts 
 - Test Routes:          Insomnia  App
 - Test Database:        Beekeeper App
