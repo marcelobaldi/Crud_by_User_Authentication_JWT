@@ -28,4 +28,3 @@ Config Observations
 - Database Config:      It's just to this Project.      Necessary config as your set up (.Env);
 - Cors:                 It's enable for all domains.    Depend's, set just to your domain (App.ts);
 - Environments:         It's being commited.            Depend's, set for no commited (.GitIgnore);
-
