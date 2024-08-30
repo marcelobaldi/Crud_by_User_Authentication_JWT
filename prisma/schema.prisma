@@ -1,0 +1,32 @@
+//Default Configuration
+generator client {
+	provider = "prisma-client-js"
+}
+
+//Connection
+datasource db {
+	provider = "postgresql"				
+	url 	 = env("DATABASE_URL")		
+}
+
+//ModelsORM
+model UserModel{
+	id				Int			@id @default(autoincrement())
+	uid          	String   	@default(uuid())
+  	name        	String
+  	email       	String	 	@unique
+  	age				Int?
+	image_name_ext	String?
+	pass_encrypted  String
+  	date_created   	DateTime	@default(now())
+  	date_updated	DateTime 	@updatedAt
+  	@@map("users")
+}
+
+//Prisma
+//- Connection:			https://www.prisma.io/docs/orm/reference/connection-urls
+//- ModelORM:			https://www.prisma.io/docs/orm/prisma-schema/data-model/models
+//- Errors:				https://www.prisma.io/docs/orm/reference/error-reference#error-codes    
+//- Migration C/U:		yarn prisma migrate dev
+//- Optional Field:	   	( ? )
+
